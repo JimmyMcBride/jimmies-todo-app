@@ -1,3 +1,5 @@
+#!/bin/node
+
 require("colors");
 const db = require("./data/dbConfig");
 const inquirer = require("inquirer");
