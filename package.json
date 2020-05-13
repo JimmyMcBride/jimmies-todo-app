@@ -1,0 +1,20 @@
+{
+  "name": "jimmies-todo-app",
+  "version": "0.0.7",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "todo": "./todo.js"
+  },
+  "dependencies": {
+    "clear": "^0.1.0",
+    "colors": "^1.4.0",
+    "inquirer": "^7.1.0",
+    "knex": "^0.21.0",
+    "pg": "^8.2.0",
+    "shelljs": "^0.8.4"
+  },
+  "scripts": {
+    "start": "./todo.js"
+  }
+}

@@ -1,0 +1,8 @@
+DROP DATABASE IF EXISTS todo_app;
+
+CREATE DATABASE todo_app
+  WITH
+  OWNER = postgres
+  ENCODING = 'UTF8'
+  CONNECTION LIMIT = -1
+;
