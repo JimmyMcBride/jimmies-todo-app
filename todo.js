@@ -1,4 +1,4 @@
-#!/bin/node
+#!/bin/env node
 
 require("colors");
 const db = require("./data/dbConfig");
